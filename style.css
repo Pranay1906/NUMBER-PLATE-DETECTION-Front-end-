@@ -1,0 +1,164 @@
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    border-bottom: 2px solid white;
+    background: linear-gradient(to right, #a517ab, #5f1882);
+    padding: 0 !important
+}
+
+#main_project {
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    align-content: center;
+    padding: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav a {
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.banner {
+    background-image: linear-gradient(to right, #a517ab, #5f1882);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+}
+
+.play-btn {
+    height: 50px;
+    margin: 20px;
+}
+
+#abce {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+/* ----------service----------- */
+
+#service {
+    padding: 80px 0px;
+}
+
+.service-img {
+    width: 190px;
+    margin-top: 0px;
+}
+
+.service {
+    padding: 20px;
+}
+
+.service h4 {
+    padding-bottom: 30px;
+    padding: 30px;
+}
+
+.title::before {
+    content: '';
+    background: #7b1798;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 5px;
+    transform: translateY(55px);
+}
+
+#service .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ab, #5f1882);
+}
+
+
+/*------------------- about----------------- */
+
+#about-us {
+    background: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#car1 {
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: 30px 20px 30px 20px;
+}
+
+#about-us ul li {
+    margin: 10px 0px;
+}
+
+#about-us ul {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+#about-us .img-fluid {
+    height: 360px;
+    padding-left: 150px;
+}
+
+.d-block {
+    height: 500px;
+}
+
+.row {
+    margin: 30px;
+}
+
+.color-grad {
+    background-image: linear-gradient(to right, #eee2ee, #5f1882);
+}
+
+
+/* -----------------program form---------------- */
+
+.program_form {
+    align-items: center;
+}
